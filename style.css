@@ -23,10 +23,21 @@ body {
 /* Layout */
 .Container {
     margin: 0 auto;
-    background-color: #77ff00;
+    background-color: #dcdcdc;
 }
 
+.Flex{
+    display: flex;
+    justify-content: space-between;
+}
 
+/* Topo do site */
+
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
 /* Smartphone Portrait */
 
 
